@@ -5,8 +5,13 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const OffCanvas = () => {
   return (
     <>
-      {/* Button to toggle right OffCanvas */}
-      <button 
+
+
+<div class="container">
+  <div class="row">
+    
+    <div class="col">
+    <button 
         className="btn btn-primary" 
         type="button" 
         data-bs-toggle="offcanvas" 
@@ -36,9 +41,9 @@ const OffCanvas = () => {
           hehehehehe hehehe ehellloo heheheheh
         </div>
       </div>
-
-      {/* Button to toggle top OffCanvas */}
-      <button 
+    </div>
+    <div class="col">
+    <button 
         className="btn btn-primary" 
         type="button" 
         data-bs-toggle="offcanvas" 
@@ -68,6 +73,17 @@ const OffCanvas = () => {
           hehehe hehe eheh ehehe heheheheh
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+
+
+      {/* Button to toggle right OffCanvas */}
+     
+
+      {/* Button to toggle top OffCanvas */}
+      
     </>
   );
 }
