@@ -5,7 +5,7 @@ import OffCanvas from './OffCanvas';
 import { Button } from 'bootstrap/dist/js/bootstrap.bundle.min';
 import Buttons from './Buttons';
 import Slideshow from './Slideshow';
-
+import Modal from './Modal';
 const App = () => {
   return (
     <div>
@@ -18,7 +18,10 @@ const App = () => {
       <Buttons />
       <br/>
       <Slideshow />
+      <br/>
+      <Modal />
     </div>
+    
   );
 }
 
