@@ -8,6 +8,7 @@ import Slideshow from './Slideshow';
 import Modal from './Modal';
 import Popover from './Popover';
 import Spinner from './Spinner';
+import Toast from './Toast';
 
 const App = () => {
   return (
@@ -27,6 +28,8 @@ const App = () => {
       <Popover/>
       <br/>
       <Spinner/>
+      <br/>
+      <Toast/>
     </div>
     
   );
