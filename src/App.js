@@ -6,6 +6,8 @@ import { Button } from 'bootstrap/dist/js/bootstrap.bundle.min';
 import Buttons from './Buttons';
 import Slideshow from './Slideshow';
 import Modal from './Modal';
+import Popover from './Popover';
+import PopoverComponent from './PopoverComponent';
 const App = () => {
   return (
     <div>
@@ -20,6 +22,9 @@ const App = () => {
       <Slideshow />
       <br/>
       <Modal />
+      <br/>
+      <Popover/>
+      <br/>
     </div>
     
   );
