@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JS for m
 const Modal = () => {
   return (
     <>
-      {/* Button trigger modal */}
+    <div className='container'>      {/* Button trigger modal */}
       <button
         type="button"
         className="btn btn-primary"
@@ -53,6 +53,7 @@ const Modal = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
