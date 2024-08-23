@@ -7,7 +7,8 @@ import Buttons from './Buttons';
 import Slideshow from './Slideshow';
 import Modal from './Modal';
 import Popover from './Popover';
-import PopoverComponent from './PopoverComponent';
+import Spinner from './Spinner';
+
 const App = () => {
   return (
     <div>
@@ -25,6 +26,7 @@ const App = () => {
       <br/>
       <Popover/>
       <br/>
+      <Spinner/>
     </div>
     
   );
